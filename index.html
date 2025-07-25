@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Site no iPhone</title>
+  <style>
+    :root {
+      --bg: #f7f7f7;
+      --fg: #222;
+      --accent: #4f46e5;
+      --muted: #666;
+      --radius: 12px;
+      --maxw: 860px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+    header {
+      padding: 60px 20px 40px;
+      text-align: center;
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin: 0 auto;
+      max-width: 520px;
+      color: var(--muted);
+    }
+    main {
+      max-width: var(--maxw);
+      padding: 30px 20px 60px;
+      margin: 0 auto;
+    }
+    section {
+      background: white;
+      padding: 24px 20px;
+      margin: 0 0 20px;
+      border-radius: var(--radius);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+      border: 1px solid #eee;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.4rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform .08s;
+    }
+    .btn:active { transform: scale(.98); }
+    footer {
+      text-align: center;
+      padding: 30px 20px 60px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    ul { padding-left: 18px; }
+    code {
+      background: #f0f0f0;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Site no iPhone 📱</h1>
+    <p>Este é um template básico criado direto do celular. Você pode editar o texto, as cores e os blocos do jeito que quiser.</p>
+    <a href="#contato" class="btn">Fale comigo</a>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Escreva aqui uma breve descrição sobre você, sua marca, seu serviço ou projeto.</p>
+    </section>
+
+    <section id="servicos">
+      <h2>Serviços / Projetos</h2>
+      <ul>
+        <li>Serviço 1 / Projeto 1</li>
+        <li>Serviço 2 / Projeto 2</li>
+        <li>Serviço 3 / Projeto 3</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/seuperfil" target="_blank">@seuperfil</a></p>
+    </section>
+
+    <section id="como-usar">
+      <h2>Como editar no iPhone</h2>
+      <ol>
+        <li>Instale o app <strong>Kodex</strong> (gratuito) na App Store.</li>
+        <li>Abra o arquivo <code>index.html</code> e edite os textos.</li>
+        <li>Para visualizar online: crie um projeto em <strong>replit.com</strong> e cole o código.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ direto do celular.</p>
+  </footer>
+</body>
+</html>
